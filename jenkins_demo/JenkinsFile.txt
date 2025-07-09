@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+
+    stages {
+        
+
+        stage('Build') {
+            steps {
+                echo 'Simulating build step...'
+                // Add actual build commands here, e.g., mvn install, npm run build, etc.
+            }
+        }
+}
